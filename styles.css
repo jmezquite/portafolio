@@ -1,13 +1,13 @@
 :root {
-  color-scheme: dark;
-  --background: #101114;
-  --surface: #191b20;
-  --surface-hover: #22252c;
-  --text: #f5f2ea;
-  --muted: #aaa9a4;
-  --accent: #ffb000;
-  --accent-dark: #211700;
-  --border: #343740;
+  color-scheme: light;
+  --background: #f4f8fc;
+  --surface: #ffffff;
+  --surface-hover: #eaf2fb;
+  --text: #0b2545;
+  --muted: #52667d;
+  --accent: #2563eb;
+  --accent-dark: #ffffff;
+  --border: #c9d8e8;
   --max-width: 68rem;
 }
 
@@ -196,7 +196,7 @@ h2 {
 
 .project-card:hover {
   background: var(--surface-hover);
-  border-color: #525763;
+  border-color: #7ea6d1;
 }
 
 .project-number,
@@ -290,7 +290,7 @@ h2 {
     border: 1px solid var(--border);
     border-radius: 0.5rem;
     background: var(--surface);
-    box-shadow: 0 1rem 3rem rgb(0 0 0 / 0.3);
+    box-shadow: 0 1rem 3rem rgb(11 37 69 / 0.18);
   }
 
   .site-navigation.is-open {
