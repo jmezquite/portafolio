@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio profesional, proyectos y experiencia laboral."
+    />
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio">Josue Aram Mezquite Lara</a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        Menú
+      </button>
+
+      <nav id="site-navigation" class="site-navigation" aria-label="Principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Ing. Software</p>
+        <h1 id="hero-title">Construyo soluciones y aprendo todos los días.</h1>
+        <p class="hero-copy">
+          Hola, soy Josue Aram Mezquite Lara. Me gusta mucho desarrollar
+          software y aquí comparto mis proyectos y mi recorrido profesional.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+          <a class="button button-secondary" href="#contacto">Contactarme</a>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="section" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">Presentación</p>
+          <h2 id="about-title">Sobre mí</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            Soy ingeniero de software y disfruto transformar ideas en soluciones
+            mediante el desarrollo de software.
+          </p>
+          <div>
+            <h3>Habilidades</h3>
+            <ul class="tag-list" aria-label="Habilidades">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Trabajo seleccionado</p>
+          <h2 id="projects-title">Proyectos</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-number">01</p>
+            <h3>Este portafolio</h3>
+            <p>
+              Sitio personal creado con HTML, CSS y JavaScript antes de migrarlo
+              a un framework.
+            </p>
+            <ul class="tag-list" aria-label="Tecnologías">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <p class="project-number">02</p>
+            <h3>Próximo proyecto</h3>
+            <p>
+              Una descripción breve del problema, la solución creada y el
+              resultado obtenido.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experiencia" class="section" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">Mi recorrido</p>
+          <h2 id="experience-title">Experiencia</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <p class="timeline-date">Formación</p>
+            <div>
+              <h3>Lic. Tecnologías de la Información y Comunicación</h3>
+              <p class="timeline-place">Formación profesional</p>
+              <p>
+                Aquí podrás agregar la institución, el periodo de estudio y los
+                conocimientos o logros más importantes.
+              </p>
+            </div>
+          </li>
+          <li>
+            <p class="timeline-date">Año anterior</p>
+            <div>
+              <h3>Otra experiencia</h3>
+              <p class="timeline-place">Empresa, organización o escuela</p>
+              <p>Agrega aquí otro momento importante de tu historial.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="contacto" class="section contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Hablemos</p>
+          <h2 id="contact-title">Contacto</h2>
+          <p>Agrega aquí una forma segura y profesional de contactarte.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="current-year"></span> Josue Aram Mezquite Lara</p>
+      <a href="#inicio">Volver arriba</a>
+    </footer>
+  </body>
+</html>
